@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F764F3022B9D2EC900E75608 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F764F3012B9D2EC900E75608 /* Home.swift */; };
+		F764F3052B9D33EC00E75608 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F764F3042B9D33EC00E75608 /* CategoryModel.swift */; };
+		F764F3072B9D451D00E75608 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F764F3062B9D451D00E75608 /* ProductModel.swift */; };
 		FBB7F8182B9D1E2800B58C39 /* VerdeLunarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7F8172B9D1E2800B58C39 /* VerdeLunarApp.swift */; };
 		FBB7F81A2B9D1E2800B58C39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7F8192B9D1E2800B58C39 /* ContentView.swift */; };
 		FBB7F81C2B9D1E2A00B58C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB7F81B2B9D1E2A00B58C39 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F764F3012B9D2EC900E75608 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F764F3042B9D33EC00E75608 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		F764F3062B9D451D00E75608 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		FBB7F8142B9D1E2800B58C39 /* VerdeLunar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerdeLunar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB7F8172B9D1E2800B58C39 /* VerdeLunarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerdeLunarApp.swift; sourceTree = "<group>"; };
 		FBB7F8192B9D1E2800B58C39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F764F2FE2B9D2E8B00E75608 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F764F3012B9D2EC900E75608 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F764F3032B9D33D400E75608 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F764F3042B9D33EC00E75608 /* CategoryModel.swift */,
+				F764F3062B9D451D00E75608 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FBB7F80B2B9D1E2800B58C39 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +74,8 @@
 		FBB7F8162B9D1E2800B58C39 /* VerdeLunar */ = {
 			isa = PBXGroup;
 			children = (
+				F764F3032B9D33D400E75608 /* Model */,
+				F764F2FE2B9D2E8B00E75608 /* View */,
 				FBB7F8172B9D1E2800B58C39 /* VerdeLunarApp.swift */,
 				FBB7F8192B9D1E2800B58C39 /* ContentView.swift */,
 				FBB7F81B2B9D1E2A00B58C39 /* Assets.xcassets */,
@@ -138,7 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB7F81A2B9D1E2800B58C39 /* ContentView.swift in Sources */,
+				F764F3052B9D33EC00E75608 /* CategoryModel.swift in Sources */,
+				F764F3022B9D2EC900E75608 /* Home.swift in Sources */,
 				FBB7F8182B9D1E2800B58C39 /* VerdeLunarApp.swift in Sources */,
+				F764F3072B9D451D00E75608 /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

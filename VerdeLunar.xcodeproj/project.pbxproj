@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FB470D992B9DB9F3009F5683 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB470D982B9DB9F3009F5683 /* Launch Screen.storyboard */; };
+		FB470D9B2B9DE085009F5683 /* Impacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB470D9A2B9DE085009F5683 /* Impacto.swift */; };
 		FB95B3852B9D93A800ED947E /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95B3842B9D93A800ED947E /* PlaySound.swift */; };
 		FB95B38D2B9D94DC00ED947E /* l2.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB95B3872B9D94DC00ED947E /* l2.wav */; };
 		FB95B38E2B9D94DC00ED947E /* l1.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB95B3882B9D94DC00ED947E /* l1.wav */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		FB470D982B9DB9F3009F5683 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FB470D9A2B9DE085009F5683 /* Impacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impacto.swift; sourceTree = "<group>"; };
 		FB95B3842B9D93A800ED947E /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		FB95B3872B9D94DC00ED947E /* l2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = l2.wav; sourceTree = "<group>"; };
 		FB95B3882B9D94DC00ED947E /* l1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = l1.wav; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				FB95B39F2B9DA3BB00ED947E /* Login.swift */,
 				FB95B3A22B9DA40F00ED947E /* Home.swift */,
+				FB470D9A2B9DE085009F5683 /* Impacto.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				FB95B3852B9D93A800ED947E /* PlaySound.swift in Sources */,
 				FB95B3A02B9DA3BB00ED947E /* Login.swift in Sources */,
 				FB95B3A72B9DA46700ED947E /* ProductModel.swift in Sources */,
+				FB470D9B2B9DE085009F5683 /* Impacto.swift in Sources */,
 				FB95B3982B9D9E5D00ED947E /* CrearToalla.swift in Sources */,
 				FB95B3A52B9DA44000ED947E /* CategoryModel.swift in Sources */,
 				FBB7F8182B9D1E2800B58C39 /* VerdeLunarApp.swift in Sources */,

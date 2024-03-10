@@ -25,17 +25,17 @@ struct TabMenu: View {
                 }
 
             
-            Text("Foro")
+            Text("Red de apoyo")
                 .tabItem {
                     Label("Foro", systemImage: "questionmark")
                 }
             
-            Text("Donaciones")
+           /* Text("Donaciones")
                 .tabItem {
                     Label("Donaciones", systemImage: "dollarsign.arrow.circlepath")
-                }
+                }*/
             
-            Text("Impacto")
+            Impacto()
                 .tabItem {
                     Label("Impacto", systemImage: "globe.americas")
                 }

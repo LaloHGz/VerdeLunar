@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB95B3852B9D93A800ED947E /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95B3842B9D93A800ED947E /* PlaySound.swift */; };
+		FB95B38D2B9D94DC00ED947E /* l2.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB95B3872B9D94DC00ED947E /* l2.wav */; };
+		FB95B38E2B9D94DC00ED947E /* l1.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB95B3882B9D94DC00ED947E /* l1.wav */; };
+		FB95B38F2B9D94DC00ED947E /* l3.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB95B3892B9D94DC00ED947E /* l3.wav */; };
+		FB95B3902B9D94DC00ED947E /* l4.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB95B38A2B9D94DC00ED947E /* l4.wav */; };
+		FB95B3912B9D94DC00ED947E /* l6.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB95B38B2B9D94DC00ED947E /* l6.wav */; };
+		FB95B3922B9D94DC00ED947E /* l5.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB95B38C2B9D94DC00ED947E /* l5.wav */; };
 		FBB7F8182B9D1E2800B58C39 /* VerdeLunarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7F8172B9D1E2800B58C39 /* VerdeLunarApp.swift */; };
 		FBB7F81A2B9D1E2800B58C39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7F8192B9D1E2800B58C39 /* ContentView.swift */; };
 		FBB7F81C2B9D1E2A00B58C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB7F81B2B9D1E2A00B58C39 /* Assets.xcassets */; };
@@ -14,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB95B3842B9D93A800ED947E /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		FB95B3872B9D94DC00ED947E /* l2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = l2.wav; sourceTree = "<group>"; };
+		FB95B3882B9D94DC00ED947E /* l1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = l1.wav; sourceTree = "<group>"; };
+		FB95B3892B9D94DC00ED947E /* l3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = l3.wav; sourceTree = "<group>"; };
+		FB95B38A2B9D94DC00ED947E /* l4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = l4.wav; sourceTree = "<group>"; };
+		FB95B38B2B9D94DC00ED947E /* l6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = l6.wav; sourceTree = "<group>"; };
+		FB95B38C2B9D94DC00ED947E /* l5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = l5.wav; sourceTree = "<group>"; };
 		FBB7F8142B9D1E2800B58C39 /* VerdeLunar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerdeLunar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB7F8172B9D1E2800B58C39 /* VerdeLunarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerdeLunarApp.swift; sourceTree = "<group>"; };
 		FBB7F8192B9D1E2800B58C39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +46,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB95B3862B9D942300ED947E /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				FB95B3882B9D94DC00ED947E /* l1.wav */,
+				FB95B3872B9D94DC00ED947E /* l2.wav */,
+				FB95B3892B9D94DC00ED947E /* l3.wav */,
+				FB95B38A2B9D94DC00ED947E /* l4.wav */,
+				FB95B38C2B9D94DC00ED947E /* l5.wav */,
+				FB95B38B2B9D94DC00ED947E /* l6.wav */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
 		FBB7F80B2B9D1E2800B58C39 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +81,8 @@
 				FBB7F8172B9D1E2800B58C39 /* VerdeLunarApp.swift */,
 				FBB7F8192B9D1E2800B58C39 /* ContentView.swift */,
 				FBB7F81B2B9D1E2A00B58C39 /* Assets.xcassets */,
+				FB95B3842B9D93A800ED947E /* PlaySound.swift */,
+				FB95B3862B9D942300ED947E /* Songs */,
 				FBB7F81D2B9D1E2A00B58C39 /* Preview Content */,
 			);
 			path = VerdeLunar;
@@ -125,8 +154,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB95B38F2B9D94DC00ED947E /* l3.wav in Resources */,
+				FB95B38D2B9D94DC00ED947E /* l2.wav in Resources */,
 				FBB7F81F2B9D1E2A00B58C39 /* Preview Assets.xcassets in Resources */,
+				FB95B3922B9D94DC00ED947E /* l5.wav in Resources */,
 				FBB7F81C2B9D1E2A00B58C39 /* Assets.xcassets in Resources */,
+				FB95B3902B9D94DC00ED947E /* l4.wav in Resources */,
+				FB95B38E2B9D94DC00ED947E /* l1.wav in Resources */,
+				FB95B3912B9D94DC00ED947E /* l6.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB7F81A2B9D1E2800B58C39 /* ContentView.swift in Sources */,
+				FB95B3852B9D93A800ED947E /* PlaySound.swift in Sources */,
 				FBB7F8182B9D1E2800B58C39 /* VerdeLunarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

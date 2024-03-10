@@ -14,6 +14,12 @@
 		FB95B3902B9D94DC00ED947E /* l4.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB95B38A2B9D94DC00ED947E /* l4.wav */; };
 		FB95B3912B9D94DC00ED947E /* l6.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB95B38B2B9D94DC00ED947E /* l6.wav */; };
 		FB95B3922B9D94DC00ED947E /* l5.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB95B38C2B9D94DC00ED947E /* l5.wav */; };
+		FB95B3982B9D9E5D00ED947E /* CrearToalla.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95B3972B9D9E5D00ED947E /* CrearToalla.swift */; };
+		FB95B39C2B9DA33F00ED947E /* TabMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95B39B2B9DA33F00ED947E /* TabMenu.swift */; };
+		FB95B3A02B9DA3BB00ED947E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95B39F2B9DA3BB00ED947E /* Login.swift */; };
+		FB95B3A32B9DA40F00ED947E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95B3A22B9DA40F00ED947E /* Home.swift */; };
+		FB95B3A52B9DA44000ED947E /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95B3A42B9DA44000ED947E /* CategoryModel.swift */; };
+		FB95B3A72B9DA46700ED947E /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95B3A62B9DA46700ED947E /* ProductModel.swift */; };
 		FBB7F8182B9D1E2800B58C39 /* VerdeLunarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7F8172B9D1E2800B58C39 /* VerdeLunarApp.swift */; };
 		FBB7F81A2B9D1E2800B58C39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7F8192B9D1E2800B58C39 /* ContentView.swift */; };
 		FBB7F81C2B9D1E2A00B58C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB7F81B2B9D1E2A00B58C39 /* Assets.xcassets */; };
@@ -28,6 +34,12 @@
 		FB95B38A2B9D94DC00ED947E /* l4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = l4.wav; sourceTree = "<group>"; };
 		FB95B38B2B9D94DC00ED947E /* l6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = l6.wav; sourceTree = "<group>"; };
 		FB95B38C2B9D94DC00ED947E /* l5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = l5.wav; sourceTree = "<group>"; };
+		FB95B3972B9D9E5D00ED947E /* CrearToalla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearToalla.swift; sourceTree = "<group>"; };
+		FB95B39B2B9DA33F00ED947E /* TabMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenu.swift; sourceTree = "<group>"; };
+		FB95B39F2B9DA3BB00ED947E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		FB95B3A22B9DA40F00ED947E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FB95B3A42B9DA44000ED947E /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		FB95B3A62B9DA46700ED947E /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		FBB7F8142B9D1E2800B58C39 /* VerdeLunar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerdeLunar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB7F8172B9D1E2800B58C39 /* VerdeLunarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerdeLunarApp.swift; sourceTree = "<group>"; };
 		FBB7F8192B9D1E2800B58C39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +71,24 @@
 			path = Songs;
 			sourceTree = "<group>";
 		};
+		FB95B39D2B9DA38B00ED947E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB95B39F2B9DA3BB00ED947E /* Login.swift */,
+				FB95B3A22B9DA40F00ED947E /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB95B39E2B9DA39300ED947E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB95B3A42B9DA44000ED947E /* CategoryModel.swift */,
+				FB95B3A62B9DA46700ED947E /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FBB7F80B2B9D1E2800B58C39 = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +108,14 @@
 		FBB7F8162B9D1E2800B58C39 /* VerdeLunar */ = {
 			isa = PBXGroup;
 			children = (
+				FB95B39E2B9DA39300ED947E /* Model */,
 				FBB7F8172B9D1E2800B58C39 /* VerdeLunarApp.swift */,
+				FB95B39D2B9DA38B00ED947E /* View */,
 				FBB7F8192B9D1E2800B58C39 /* ContentView.swift */,
 				FBB7F81B2B9D1E2A00B58C39 /* Assets.xcassets */,
 				FB95B3842B9D93A800ED947E /* PlaySound.swift */,
+				FB95B39B2B9DA33F00ED947E /* TabMenu.swift */,
+				FB95B3972B9D9E5D00ED947E /* CrearToalla.swift */,
 				FB95B3862B9D942300ED947E /* Songs */,
 				FBB7F81D2B9D1E2A00B58C39 /* Preview Content */,
 			);
@@ -172,9 +206,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB95B39C2B9DA33F00ED947E /* TabMenu.swift in Sources */,
 				FBB7F81A2B9D1E2800B58C39 /* ContentView.swift in Sources */,
 				FB95B3852B9D93A800ED947E /* PlaySound.swift in Sources */,
+				FB95B3A02B9DA3BB00ED947E /* Login.swift in Sources */,
+				FB95B3A72B9DA46700ED947E /* ProductModel.swift in Sources */,
+				FB95B3982B9D9E5D00ED947E /* CrearToalla.swift in Sources */,
+				FB95B3A52B9DA44000ED947E /* CategoryModel.swift in Sources */,
 				FBB7F8182B9D1E2800B58C39 /* VerdeLunarApp.swift in Sources */,
+				FB95B3A32B9DA40F00ED947E /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

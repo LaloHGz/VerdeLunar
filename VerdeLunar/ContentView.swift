@@ -9,31 +9,44 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
+        let purplePeriwinkle = Color(red: 203/255, green: 189/255, blue: 242/255).opacity(0.7)
+        
+        VStack{
             ZStack{
-                Color.red
-                    .aspectRatio(contentMode: .fit)
-                    .opacity(0.8)
-                    .ignoresSafeArea(.all)
-                    /*.resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .opacity(0.8)
-                    .edgesIgnoringSafeArea(.all)
-                     */
-                VStack {
-                    Image("toalla-tela")
-                        .resizable()
-                        .frame(width: 200, height: 200)
-                        .padding(.bottom, 10)
-                    Text("¿Cómo crear una Toalla de Tela?")
-                        .foregroundStyle(.white)
+                purplePeriwinkle
+                        .ignoresSafeArea(.all)
+                VStack(spacing: 20) {
+                        Image(systemName: "scissors.circle.fill")
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                    
+                        Text("¿Cómo crear una Toalla de Tela?")
+                            .multilineTextAlignment(.center)
+                        .foregroundStyle(.black)
+                        .font(.system(size: 20, weight: .bold))
+                        .frame(width: 250)
                     
                 }
-                    
-                
-                
+
             }
-            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
+            .frame(height: 300)
+            Spacer()
+            VStack {
+                Text("Materiales:\n1. Tela( Franela Americana, Algodón, Percal, Piqué, Camisero) \n2. Relleno (Franela) \n3. Tela impermeable \n4. Broches")
+                    .frame(width: 350)
+                
+                
+                Spacer()
+            }
+            
+            
+        }
+
+        
     }
+        
+    
 }
 
 #Preview {

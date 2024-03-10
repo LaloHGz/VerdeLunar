@@ -14,9 +14,12 @@ struct CategoryModel: Identifiable, Hashable {
 }
 
 var categoryList: [CategoryModel] = [
-    CategoryModel(icon: "", title: "All"),
-    CategoryModel(icon: "house", title: "Choco"),
-    CategoryModel(icon: "figure.wrestling", title: "Wafles"),
-    CategoryModel(icon: "hands.and.sparkles.fill", title: "Toffee"),
+    CategoryModel(icon: "", title: "Todas"),
+    CategoryModel(icon: "house", title: "Alternativas Sostenibles"),
+    CategoryModel(icon: "hands.and.sparkles.fill", title: "Salud Menstrual"),
+    CategoryModel(icon: "figure.wrestling", title: "Empoderamiento Femenino"),
+    CategoryModel(icon: "hands.and.sparkles.fill", title: "Impacto Ambiental"),
+    
+    
 
 ]

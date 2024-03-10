@@ -19,10 +19,10 @@ struct Product: Identifiable {
 }
 
 var productList = [
-    Product(name: "Good surface", category: "Choco", image: "home", color: .pink ,price: 8),
-    Product(name: "Unreal muffins", category: "Wafles", image: "home",color: .yellow , price: 8),
-    Product(name: "Ramen soyu", category: "Toffee", image: "home",color: .red , price: 8),
-    Product(name: "Tacos dorados", category: "Wafles", image: "home", color: .green ,price: 8),
-    Product(name: "Chips Ajoy", category: "Choco", image: "home", color: .blue ,price: 8),
-    Product(name: "Dados Pizza", category: "Toffee", image: "home", color: .orange ,price: 8),
+    Product(name: "Toalla de tela", category: "Choco", image: "scissors", color: .pink ,price: 40),
+    Product(name: "Desechar residuos", category: "Wafles", image: "moon.fill",color: .yellow , price: 50),
+    Product(name: "Calzones menstruales", category: "Toffee", image: "humidity.fill",color: .red , price: 60),
+    Product(name: "Copa menstrual", category: "Wafles", image: "mountain.2.fill", color: .green ,price: 30),
+    Product(name: "Chips Ajoy", category: "Choco", image: "house", color: .blue ,price: 55),
+    Product(name: "Dados Pizza", category: "Toffee", image: "house", color: .orange ,price: 30),
 ]

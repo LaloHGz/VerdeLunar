@@ -14,7 +14,7 @@ struct Home: View {
     @State var selectedCategory = ""
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ScrollView {
                 // Header
                 VStack {
@@ -63,6 +63,7 @@ struct Home: View {
                     ScrollView(.horizontal, showsIndicators: false){
                         HStack {
                             ForEach(productList, id: \.id) { item in
+                                
                                 ProductCard (product: item)
                             }
                         }
@@ -145,10 +146,17 @@ struct ProductCard: View {
                             .font(.system(size: 24, weight: .semibold))
                         
                         Spacer()
-                        
-                        Button {
-                            
-                        } label: {
+                        if(product.iden == "0"){
+                            NavigationLink(destination: CrearToalla()){
+                                Image (systemName: "play")
+                                    .imageScale(.large)
+                                    .padding()
+                                    .frame(width: 60, height: 60) // Tamaño del circulo
+                                    .background(.black)
+                                    .clipShape (Capsule())
+                                    .foregroundColor (.white)
+                            }
+                        }else {
                             Image (systemName: "play")
                                 .imageScale(.large)
                                 .padding()
@@ -157,6 +165,7 @@ struct ProductCard: View {
                                 .clipShape (Capsule())
                                 .foregroundColor (.white)
                         }
+                        
                        // .padding(.horizontal,-2) posicion del botom
                         
                     }

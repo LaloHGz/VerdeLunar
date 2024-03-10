@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB470D992B9DB9F3009F5683 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB470D982B9DB9F3009F5683 /* Launch Screen.storyboard */; };
 		FB95B3852B9D93A800ED947E /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95B3842B9D93A800ED947E /* PlaySound.swift */; };
 		FB95B38D2B9D94DC00ED947E /* l2.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB95B3872B9D94DC00ED947E /* l2.wav */; };
 		FB95B38E2B9D94DC00ED947E /* l1.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB95B3882B9D94DC00ED947E /* l1.wav */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB470D982B9DB9F3009F5683 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		FB95B3842B9D93A800ED947E /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		FB95B3872B9D94DC00ED947E /* l2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = l2.wav; sourceTree = "<group>"; };
 		FB95B3882B9D94DC00ED947E /* l1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = l1.wav; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		FBB7F80B2B9D1E2800B58C39 = {
 			isa = PBXGroup;
 			children = (
+				FB470D982B9DB9F3009F5683 /* Launch Screen.storyboard */,
 				FBB7F8162B9D1E2800B58C39 /* VerdeLunar */,
 				FBB7F8152B9D1E2800B58C39 /* Products */,
 			);
@@ -191,6 +194,7 @@
 				FB95B38F2B9D94DC00ED947E /* l3.wav in Resources */,
 				FB95B38D2B9D94DC00ED947E /* l2.wav in Resources */,
 				FBB7F81F2B9D1E2A00B58C39 /* Preview Assets.xcassets in Resources */,
+				FB470D992B9DB9F3009F5683 /* Launch Screen.storyboard in Resources */,
 				FB95B3922B9D94DC00ED947E /* l5.wav in Resources */,
 				FBB7F81C2B9D1E2A00B58C39 /* Assets.xcassets in Resources */,
 				FB95B3902B9D94DC00ED947E /* l4.wav in Resources */,
@@ -353,6 +357,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -381,6 +386,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

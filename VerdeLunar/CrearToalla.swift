@@ -42,8 +42,7 @@ struct CrearToalla: View {
                 }
 
             }
-        .frame(height: 300)
-            .frame(height: 300)
+            .frame(height: 250)
             Spacer()
             
             ScrollView{

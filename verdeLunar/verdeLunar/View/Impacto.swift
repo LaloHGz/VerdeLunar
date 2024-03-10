@@ -19,7 +19,7 @@ struct Impacto: View {
     @State private var nonBiodegradableWasteSaved = 0.0
     
     // Costo de una toalla sanitaria (en MXN) y de una copa menstrual (en MXN)
-    let towelCostMXN = 25.0
+    let towelCostMXN = 2.5
     let cupCostMXN = 200.0
     
     // Huella de carbono de una toalla sanitaria (kg CO2-equivalente por mes)
@@ -73,7 +73,7 @@ struct Impacto: View {
                     HStack {
                         Button(action: {
                             // Incrementar el contador de toallas en un mes
-                            towelsSaved += 1
+                            towelsSaved += 20
                             updateMonthYearCounters()
                         }) {
                             Text("Añadir Mes")
@@ -90,7 +90,7 @@ struct Impacto: View {
                         
                         Button(action: {
                             // Incrementar el contador de toallas en un año
-                            towelsSaved += 12
+                            towelsSaved += 240
                             updateMonthYearCounters()
                         }) {
                             Text("Añadir Año")
@@ -208,13 +208,13 @@ struct Impacto: View {
     
     // Función para calcular la huella de carbono mensual
     func calculateMonthlyCarbonFootprint() -> Double {
-        let averageCarbonFootprint = (towelCarbonFootprintRange.lowerBound + towelCarbonFootprintRange.upperBound) / 2
-        return Double(towelsSaved) * averageCarbonFootprint
+        let averageCarbonFootprint = Double(monthsCount) * 0.6283
+        return averageCarbonFootprint
     }
     
     // Función para actualizar los contadores de meses y años
     func updateMonthYearCounters() {
-        monthsCount = towelsSaved
+        monthsCount = towelsSaved/20
         yearsCount = monthsCount / 12
     }
     

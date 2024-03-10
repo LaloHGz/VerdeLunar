@@ -21,88 +21,92 @@ struct Login: View {
     @State private var isLogged: Bool = false
     
     var body: some View {
-        ScrollView{
-            VStack {
-                Image(systemName: "moon.fill")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 100, height: 100)
-                    .foregroundColor(purplePeriwinkle)
-                    .padding(.top, 50)
-                
-                HStack {
+        NavigationStack{
+            ScrollView{
+                VStack {
+                    Image(systemName: "moon.fill")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 100, height: 100)
+                        .foregroundColor(purplePeriwinkle)
+                        .padding(.top, 50)
                     
-                    Text("\n**Bienvenida**")
-                        .font(.system(size: 22))
-                        .frame(width: 310, alignment: .leading)
-                }
-                .padding(-10)
-                
-                HStack{
-                    Text("Con tu ayuda estamos logrando **más**")
-                        .font(.system(size: 30))
-                        .padding(.trailing)
-                }
-                .padding(20) // Modificado a 30
-                
-                TextField("Usuario", text: $username)
-                    .padding()
-                    .background(Color.gray.opacity(0.2))
-                    .cornerRadius(10)
-                    .padding(.horizontal, 30)
-                
-                
-                SecureField("Contraseña", text: $password)
-                    .padding()
-                    .background(Color.gray.opacity(0.2))
-                    .cornerRadius(10)
-                    .padding(.horizontal, 30)
-                
-                
-                Button(action: {
-                    // Aquí deberías implementar la lógica de autenticación
-                    // Por simplicidad, aquí simplemente marcaremos como iniciada la sesión
-                    self.isLogged = true
-                }) {
-                    Text("Ingresar")
-                        .font(.system(size: 19))
-                        .fontWeight(.bold)
-                        .foregroundColor(.black)
+                    HStack {
+                        
+                        Text("\n**Bienvenida**")
+                            .font(.system(size: 22))
+                            .frame(width: 310, alignment: .leading)
+                    }
+                    .padding(-10)
+                    
+                    HStack{
+                        Text("Con tu ayuda estamos logrando **más**")
+                            .font(.system(size: 30))
+                            .padding(.trailing)
+                    }
+                    .padding(20) // Modificado a 30
+                    
+                    TextField("Usuario", text: $username)
                         .padding()
-                        .background(blueColumbia)
+                        .background(Color.gray.opacity(0.2))
                         .cornerRadius(10)
                         .padding(.horizontal, 30)
-                }
-                .padding(20)
-                
-                if isLogged {
-                   
-                }
-                
-                Spacer()
-                
-                VStack {
-                    Text("¡Únete para ser parte del **cambio**!")
-                        .font(.system(size: 19))
-                        .foregroundColor(.gray)
                     
-                        Spacer()
                     
-                    Button(action: {
-                        // Aquí deberías implementar la lógica para el registro
-                    }) {
-                        Text("Regístrate")
-                            .font(.system(size: 20))
-                            .fontWeight(.bold)
-                            .foregroundColor(blueColumbiaStrong)
+                    SecureField("Contraseña", text: $password)
+                        .padding()
+                        .background(Color.gray.opacity(0.2))
+                        .cornerRadius(10)
+                        .padding(.horizontal, 30)
+                    
+                    
+                    NavigationLink(destination: TabMenu()){
+                            Text("Ingresar")
+                                .font(.system(size: 19))
+                                .fontWeight(.bold)
+                                .foregroundColor(.black)
+                                .padding()
+                                .background(blueColumbia)
+                                .cornerRadius(10)
+                                .padding(.horizontal, 30)
+                        }
+                        .padding(20)
+                    }
+                        
+                    
+
+                    
+                    
+                    
+                    if isLogged {
+                       
                     }
                     
+                    Spacer()
                     
+                    VStack {
+                        Text("¡Únete para ser parte del **cambio**!")
+                            .font(.system(size: 19))
+                            .foregroundColor(.gray)
+                        
+                            Spacer()
+                        
+                        Button(action: {
+                            // Aquí deberías implementar la lógica para el registro
+                        }) {
+                            Text("Regístrate")
+                                .font(.system(size: 20))
+                                .fontWeight(.bold)
+                                .foregroundColor(blueColumbiaStrong)
+                        }
+                        
+                        
+                    }
+                    .padding(.bottom, 30)
                 }
-                .padding(.bottom, 30)
             }
         }
-    }
+        
 }
 
 struct Login_Previews: PreviewProvider {

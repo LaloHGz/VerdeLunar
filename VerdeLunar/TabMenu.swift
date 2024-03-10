@@ -40,6 +40,7 @@ struct TabMenu: View {
                     Label("Impacto", systemImage: "globe.americas")
                 }
         }.accentColor(blueColumbiaStrong)
+            .navigationBarHidden(true)
         
     }
         
